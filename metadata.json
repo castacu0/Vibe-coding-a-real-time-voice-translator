@@ -1,0 +1,4 @@
+{
+  "name": "Real-time Voice Translator",
+  "description": "An application that transcribes your speech in real-time and translates it into a selected language using the Gemini API."
+}

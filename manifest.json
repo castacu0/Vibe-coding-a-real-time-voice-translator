@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Real-time Voice Translator",
+  "version": "1.0",
+  "description": "An application that transcribes your speech in real-time and translates it into a selected language using the Gemini API.",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Real-time Voice Translator"
+  },
+  "permissions": [
+    "microphone"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' https://aistudiocdn.com https://cdn.tailwindcss.com; object-src 'self'; connect-src https://generativelanguage.googleapis.com;"
+  }
+}
